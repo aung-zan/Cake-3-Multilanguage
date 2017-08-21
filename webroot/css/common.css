@@ -1,0 +1,121 @@
+/*navbar*/
+
+.navbar {margin-bottom: 0;border-radius: 0;}
+.navbar-toggle span{display: block;height: 2px;width: 100%;background: #858483;left: 0;transition: .35s ease-in-out;}
+.navbar-toggle {margin-right:0px;margin-bottom:0px;}
+.navbar-toggle .icon-bar {width: 32px;}
+.navbar-toggle em {left: -1px;bottom: -18px;font-style: normal;font-family:'Roboto',sans-serif;font-size: 12px;color:#858483;}
+.navbar-header{padding:0px;margin-left: 90px}
+.navbar-right {padding:0;margin:0;margin-right:100px;}
+.nav-menu-bar {float:right;height:auto;width:300px;margin:0px 33px 18px 0px;}
+.nav-upper-menu-bar{clear:both;width:auto;bottom:0px;margin-right:14px;height:50px;margin-top:10px}
+.nav-lower-menu-bar{float: right;width:auto;}
+.navbar-nav{margin:0px;padding:0px;}
+.nav ul{margin:0px;padding:0px;bottom: 0px;}
+.navbar-nav>li>a {padding-top:10px;padding-bottom: 10px;color:#000;font-weight:bold;}
+.navbar-nav >li>a:hover{background-color: none;}
+.nav>li>a:focus, .nav>li>a:hover {text-decoration: none;background-color: transparent !important;}
+.nav-upper-menu-bar>ul>li>a {padding: 10px 0px 0px 17px;}
+.mb-content img{width:74px;height:62px;}
+.mb-content {float:right;}
+.mb-icon {border-left:1px solid #b4b2b2;height: 62px;float: right;}
+
+/*navbar*/
+
+/*container-fluid bg-1*/
+.bg-1 {background-image: url('../img/top-crop.png');background-size: 1500px 386px;height:386px;}
+
+/*container-fluid bg-1*/
+
+/*content*/
+.content {width:80%;}
+.div-center {margin:0 auto;}
+/*content*/
+
+/*container-fluid bg-2*/
+.bg-2 p {font-size: 18px;padding:60px 70px 14px 70px;}
+.bg-2 span {font-size:20px;}
+.menu-buttom {margin: 85px 0px 20px 0px;}
+.btn-frobom a{background-color: #00cb9e;border: none;color: white;width:233px;height:34px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;padding:3px 33px 7px 33px;}
+.btn-frobom a:hover {background-color: #00a07e;}
+/*container-fluid bg-2*/
+
+/*content bg-service*/
+.bg-service {font-size: 18px;padding:50px;}
+.bg-service p {padding:10px;}
+/*content bg-servie*/
+
+/*content 3 buttom*/
+.bg-button {padding-bottom: 30px;}
+.button {background-image:url('../img/btn-service01.png');background-size: 248px 80px;border: none;color: white;width:248px;height: 80px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+.button1 {background-image:url('../img/btn-service02.png');background-size: 248px 80px;border: none;color: white;width:248px;height: 80px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+.button2 {background-image:url('../img/btn-service03.png');background-size: 248px 80px;border: none;color: white;width:248px;height: 80px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+.button:hover{background-image:url('../img/btn-service01-on.png');}
+.button1:hover {background-image:url('../img/btn-service02-on.png');}
+.button2:hover {background-image:url('../img/btn-service03-on.png');}
+/*content 3 buttom*/
+
+/*for bg-3col-photo*/
+.text-blog {font-size: 18px;}
+.photo-title {margin:20px 0px 30px 0px;}
+/*for bg-3col-photo*/
+
+/*for content-news bg-4*/
+.news-blog {background-color:#eaeaea;padding:10px;margin:70px 0px 150px 0px;}
+.new-date-link {padding:5px 5px 5px 5px;}
+.new-detail-link {float:left;display:block;color:#0ca28a;background-color: #d9f7f4;text-decoration: none;width:79px;text-align: center;}
+.new-date {clear:both;color:#0ca28a;width:79px;margin:5px 5px 5px 0px;text-align: center;}
+.new-detail-link p {clear:both;}
+.linking a {font-size:18px;}
+/*for content-news bg-4*/
+
+/*container-fluid footer-nav*/
+.content-us {margin-top:60px}
+.footer-nav {clear:both;border-top:1px solid #CCCCCC;margin-top: 175px;}
+.arrow-right {width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 10px solid rgb(56,188,166);float:left;}
+.footer-nav-logo address {font-weight:bold;}
+.footer-nav a{color:rgb(56,188,166);}
+.footer-nav ul li {color: rgb(56,188,166);}
+.footer-content a{color:rgb(56,188,166);}
+.footer-content span {padding:10px;font-weight: bold;}
+/*container-fluid footer-nav*/
+
+/*footer*/
+footer {background-color: #0fa288;height:47px}
+#myBtn {position: fixed;bottom: 15px; width:65px; height:65px; display:block;right: 15px;z-index: 99;border: none;outline: none;background-color:#1d9b86;color: white;padding: 20px;border-radius: 50px;cursor: pointer;}
+#myBtn:hover {background-color:#37867a;}
+.footer-bg p{padding:16px 0px 0px 0px;color:#fff;font-size:16px;}
+/*footer*/
+
+/* container-fluid sub-header */
+.sub-header {background-color: #e4e4e4;height:auto;}
+.sub-header ul {list-style-type: none;padding: 0;overflow: hidden;margin:10px 10px 10px 40px;}
+.sub-header li {float: left;}
+.sub-header li a {display: block;color: #000;text-align: center;padding:10px 0px 10px 3px;text-decoration: none;font-size: 12px;}
+.sub-header li a:hover {background-color:#eee;}
+.sub-header h3{margin:20px 0px 40px 40px;font-size: 40px;font-weight: bold;}
+/* container-fluid sub-header */
+
+/*myanmar-attraction page*/
+.bg-2 h3 {padding:35px 0px 35px 0px;}
+.frobom-title{border-top:1px solid #10a189;border-bottom: 1px solid #10a189;}
+.frobom-title h5 {color:#10a189;font-weight: bold;font-size: 20px;text-align:center;}
+.frobom-paragraph p{padding:30px 0px 30px 0px;font-size: 20px;text-align:center;}
+.img-right img {width: 350px;height: 220px;float: right;}
+.img-left img {width: 350px;height: 220px;float: left;}
+.content-img {margin-bottom:57px;}
+/*myanmar-attraction page*/
+
+/*career page*/
+.content-career p{color:#666666;font-size:16px;}
+.blog-career {height:72px;margin-bottom: 32px;}
+.blog-num {background-color:#0fa288;width:5%;height:72px;float:left}
+.blog-content {width:90%;height:70px;float:left;}
+.p1 {padding: 5px 0px 0px 8px;color:#636363;font-size:15px;font-weight: bold;}
+.p2 {padding: 0px 0px 0px 8px;color:#636363;font-size:13px;}
+.blog-num span{color:#fff;font-size:20px;}
+.blog-num {padding:20px 0px 20px 19px;clear:both;}
+.job-list {clear:both;background-color:#c6eeec;width:100%;height:300px;margin-top:35px;}
+.job-list-blog {background-color:#fff;width:300px;height:200px;margin: 25px;}
+.job-list-blog h5{background-color:#0fa288;padding: 13px;color:#fff;text-align:center;}
+/*career page*/

@@ -1,0 +1,66 @@
+msgid "Company"
+msgstr "会社情報"
+
+msgid "Service"
+msgstr "サービス"
+
+msgid "Career"
+msgstr "キャリア"
+
+msgid "COMPANY"
+msgstr "会社情報"
+
+msgid "SERVICE"
+msgstr "サービス"
+
+msgid "CAREER"
+msgstr "キャリア"
+
+msgid "Myanmar"
+msgstr "ミャンマー"
+
+msgid "Japan"
+msgstr "日本"
+
+msgid "FROBO JAPAN Co., Ltd."
+msgstr "株式会社FROBO JAPAN."
+
+msgid "Okinawa Prefecture Naha city 2-3-1 Naha citizen Collaboration Plaza 406,Japan."
+msgstr "沖縄県那覇市銘刈2-3-1 なは市民協働プラザ406号"
+
+msgid "company overview"
+msgstr "会社案内"
+
+msgid "career information"
+msgstr "採用"
+
+msgid "staff interview"
+msgstr "スタッフインタビュー"
+
+msgid "Laboratory development"
+msgstr "ラボ型開発"
+
+msgid "Contract development"
+msgstr "受託型開発"
+
+msgid "Resident development"
+msgstr "常駐型開発"
+
+msgid "Our Approach"
+msgstr "弊社取り組み"
+
+msgid "Myanmar’s attraction"
+msgstr "ミャンマーの魅力"
+
+
+
+
+
+
+
+
+
+
+
+
+
