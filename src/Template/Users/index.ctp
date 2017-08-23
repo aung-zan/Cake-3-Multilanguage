@@ -60,15 +60,33 @@
 
     <div class="col-md-12 bg-4"><!-- col-md-12 bg-4 -->
         <div class="row news-blog"><!--news-blog-->
-            <h3 class="text-center"><?= __('最新ニュース') ?></h3>
+            <h3 class="text-center"><?= __('The Latest News') ?></h3>
+            <?php foreach ($news as $new): ?>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/pic-news-20170701.png" class="img-responsive" style="width:100%" alt="Image">
+                        <div class="new-date-link">
+                            <?=
+                                $this->Html->link(__('News'),
+                                    ['action' => 'details', 'id' => $new->id],
+                                    ['class' => 'new-detail-link']
+                                );
+                            ?>
+                            <span class="new-date">7/13/2017</span>
+                        </div>
+                        <p><?= h($new->title) ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+
             <div class="col-md-3">
                 <div class="thumbnail">
                     <img src="img/pic-news-20170701.png" class="img-responsive" style="width:100%" alt="Image">
                     <div class="new-date-link">
-                        <a class="new-detail-link" href="new-article.html"><?= __('消息') ?></a>
-                        <span class="new-date">7/13/2017</span>
+                    <a class="new-detail-link" href="new-article.html">News</a>
+                    <span class="new-date">7/13/2017</span>
                     </div>
-                        <p>ああああああああああああああああああああああああああああああああああああ</p>
+                    <p>ああああああああああああああああああああああああああああああああああああ</p>
                 </div>
             </div>
 
@@ -76,10 +94,10 @@
                 <div class="thumbnail">
                     <img src="img/pic-news-20170701.png" class="img-responsive" style="width:100%" alt="Image">
                     <div class="new-date-link">
-                        <a class="new-detail-link" href="new-article.html"><?= __('消息') ?></a>
-                        <span class="new-date">7/13/2017</span>
+                    <a class="new-detail-link" href="new-article.html">News</a>
+                    <span class="new-date">7/13/2017</span>
                     </div>
-                        <p>ああああああああああああああああああああああああああああああああああああ</p>
+                    <p>ああああああああああああああああああああああああああああああああああああ</p>
                 </div>
             </div>
 
@@ -87,25 +105,15 @@
                 <div class="thumbnail">
                     <img src="img/pic-news-20170701.png" class="img-responsive" style="width:100%" alt="Image">
                     <div class="new-date-link">
-                        <a class="new-detail-link" href="new-article.html"><?= __('消息') ?></a>
-                        <span class="new-date">7/13/2017</span>
+                    <a class="new-detail-link" href="new-article.html">News</a>
+                    <span class="new-date">7/13/2017</span>
                     </div>
-                        <p>ああああああああああああああああああああああああああああああああああああ</p>
+                    <p>ああああああああああああああああああああああああああああああああああああ</p>
                 </div>
             </div>
 
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="img/pic-news-20170701.png" class="img-responsive" style="width:100%" alt="Image">
-                    <div class="new-date-link">
-                        <a class="new-detail-link" href="new-article.html"><?= __('消息') ?></a>
-                        <span class="new-date">7/13/2017</span>
-                    </div>
-                        <p>ああああああああああああああああああああああああああああああああああああ</p>
-                </div>
-            </div>
-            <div class="linking">
-                <a href="newlist.html"><?= __('ニュース一覧へ') ?></a>
+            <div class="btn-frombo">
+                    <a href="newlist.html">Go to New list<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div><!--news-blog-->
     </div><!-- col-md-12 bg-4 -->
