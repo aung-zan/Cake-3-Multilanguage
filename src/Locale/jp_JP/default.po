@@ -31,6 +31,9 @@ msgstr "沖縄県那覇市銘刈2-3-1 なは市民協働プラザ406号"
 msgid "company overview"
 msgstr "会社案内"
 
+msgid "Company Overview"
+msgstr "会社案内"
+
 msgid "career information"
 msgstr "採用"
 
@@ -52,15 +55,13 @@ msgstr "弊社取り組み"
 msgid "Myanmar’s attraction"
 msgstr "ミャンマーの魅力"
 
+msgid ""
+"FROBO offshore development ensures delivering high quality and low cost services by allocating experienced Japanese bridge "
+"engineers who take care of upstream process among Myanmar developers."
+msgstr "FROBOのオフショア開発では、上流工程を日本人ブリッジSEが担当し、開発をミャンマー人スタッフがメインで担当することで、オフショアでありながら高品質で低価格なサービスを提供しております。"
 
+msgid "Several offshore models can be selected according to customer needs."
+msgstr "お客様のご要望に応じて、開発体制はラボ型、受託型、常駐型からお選びいただけます。"
 
-
-
-
-
-
-
-
-
-
-
+msgid "FROBO aims to grow together with society by supporting staff’s career development to become successful globally."
+msgstr "FROBOは、国境を超え、世界へはばたく人材を育成し、社会とともに成長できる企業を目指しております。"

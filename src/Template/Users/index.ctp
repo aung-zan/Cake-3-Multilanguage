@@ -1,11 +1,11 @@
 <div class="content div-center text-center">
     <div class="col-md-12 bg-2"><!-- col-md-12 bg-2 -->
             <p>
-                <?= __('FROBOのオフショア開発では、上流工程を日本人ブリッジSEが担当し、開発をミャンマー人スタッフがメインで担当することで、オフショアでありながら高品質で低価格なサービスを提供しております。') ?>
+                <?= __('FROBO offshore development ensures delivering high quality and low cost services by allocating experienced Japanese bridge engineers who take care of upstream process among Myanmar developers.') ?>
             </p>
             <div class="btn-frobom">
                 <a href="myanmar-attraction.html">
-                    <?= __('ミャンマーの魅力') ?>
+                    <?= __('Myanmar’s attraction') ?>
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div>
@@ -18,7 +18,7 @@
         <div class="visible-xs">
             <a href="servic.html"><img src="img/bnr-service.png" class="img-responsive col-xs-12"></a>
         </div>
-            <p><?= __('お客様のご要望に応じて、開発体制はラボ型、受託型、常駐型からお選びいただけます') ?></p>
+            <p><?= __('Several offshore models can be selected according to customer needs.') ?></p>
     </div><!-- content bg-service -->
 
     <div class="col-md-12 bg-button"><!-- content for 3 buttom -->
@@ -39,21 +39,21 @@
     <div class="col-md-12 bg-3col-photo"><!-- content 3 col photo of home -->
         <div class="photo-title">
             <p class ="text-blog">
-                <?= __('FROBOは、国境を超え、世界へはばたく人材を育成し、社会とともに成長できる企業を目指しております。') ?>
+                <?= __('FROBO aims to grow together with society by supporting staff’s career development to become successful globally.') ?>
             </p>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <img src="img/company-pic01.png" class="img-responsive" style="width:100%" alt="Image">
-                <p><?= __('会社情報') ?></p>
+                <p><?= __('Company Overview') ?></p>
             </div>
             <div class="col-md-4">
                 <img src="img/pic03.png" class="img-responsive" style="width:100%" alt="Image">
-                <p><?= __('取り組み') ?></p>
+                <p><?= __('Our Approach') ?></p>
             </div>
             <div class="col-md-4">
                 <img src="img/pic01.png" class="img-responsive" style="width:100%" alt="Image">
-                <p><?= __('キャリア') ?></p>
+                <p><?= __('Career') ?></p>
             </div>
         </div>
     </div><!-- content 3 col photo of home -->
