@@ -65,6 +65,8 @@
     <div class="col-md-12 bg-1"><!-- Start First Container -->
     </div><!-- End First Container -->
 
+    <?= $this->fetch('content') ?>
+
     <!-- footer -->
     <div class="col-md-12 footer-nav"><!-- col-md-12 footer-nav -->
         <div class="footer-address col-md-4">
