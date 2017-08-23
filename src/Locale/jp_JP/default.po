@@ -1,3 +1,9 @@
+msgid "News"
+msgstr "消息"
+
+msgid "The Latest News"
+msgstr "最新ニュース"
+
 msgid "Company"
 msgstr "会社情報"
 
